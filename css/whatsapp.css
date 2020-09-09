@@ -1,0 +1,47 @@
+.floatlogo{
+	position: absolute;
+	width:177px;
+	height:58px;
+	bottom:90%;
+	/*right:20px;*/
+	left:30px;
+	background-image:url(../img/logo.png);
+	/*background-color:#25d366;*/
+	
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+  z-index:100;
+}
+.floatlogo:hover {
+	text-decoration: none;
+	color: #25d366;
+}
+.my-floatlogo{
+	margin-top:16px;
+}
+
+
+
+
+.floatwa{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-image:url(../img/ico_whatsapp.png);
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.floatwa:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-floatwa{
+	margin-top:16px;
+}
